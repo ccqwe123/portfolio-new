@@ -1,4 +1,4 @@
-import { Code2, Smartphone, Globe, Layers, Zap, Shield, Laptop, Terminal, Cpu, Database } from 'lucide-react';
+import { Terminal, Cpu, Database } from 'lucide-react';
 
 const About = () => {
     const categories = [
@@ -79,7 +79,7 @@ const About = () => {
                                             {skill.image ? (
                                                 <img src={skill.image} alt={skill.name} className="max-w-full max-h-full object-contain" />
                                             ) : (
-                                                skill.icon
+                                                skill.image
                                             )}
                                         </div>
                                         <div>
